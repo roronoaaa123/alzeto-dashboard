@@ -4,7 +4,7 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Head from 'next/head';
-import { supabase } from '../lib/supabaseClient';
+import { supabase } from '../lib/supabase';
 import EditRoomModal from '../components/EditRoomModal';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
